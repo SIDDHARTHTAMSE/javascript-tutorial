@@ -20,7 +20,6 @@
 // console.log(age1 + "");  // 22 --> "22"
 // console.log(typeof (age1 + ""));
 
-
 // convert String  to Number
 
 // let age2 = "22";
