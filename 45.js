@@ -1,6 +1,6 @@
-// function
+// function expression
 
-function singHappyBirthday(){
+const singHappyBirthday = function(){
     console.log("Happy birthday to you....")
 }
 
@@ -9,7 +9,7 @@ singHappyBirthday();
 
 // with return type
 
-function twoPlusFour(){
+const twoPlusFour = function(){
     return 2+4;
 }
 
@@ -20,7 +20,7 @@ console.log(returnedValue);
 
 // with parameters
 
-function sumTwoNumbers(number1, number2){
+const sumTwoNumbers = function(number1, number2){
     return number1 + number2;
 }
 console.log(sumTwoNumbers(4, 5));
@@ -29,7 +29,7 @@ console.log(sumTwoNumbers(4, 5));
 // input: 1 Number
 // output: true , false
 
-function isEven(number){
+const isEven = function(number){
     if(number % 2 === 0){
         return true;
     }else{
@@ -44,18 +44,18 @@ console.log(isEven(2));
 // input: String
 // output: firstCharacter
 
-function firstCharacter(anyString){
+const firstCharacter = function(anyString){
     return anyString[0];
 }
 
-console.log(firstCharacter("zbc"))
+console.log(firstCharacter("abc"))
 
 
 // function
 // input: array, target (number)
 // output: index of  target if target present in array
 
-function findArray(array, target){
+const findArray = function(array, target){
     for(let i=0; i<array.length; i++){
         if(array[i] === target){
             return i;
